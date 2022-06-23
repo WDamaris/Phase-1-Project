@@ -20,7 +20,7 @@ console.log(data.results);
 }
 form.addEventListener("submit",(e)=>{
     e.preventDefault()
-}
+})
 
 
 
