@@ -1,13 +1,21 @@
-let aButton=document.getElementById("aButton")
-let image=document.getElementById("image")
-aButton.addEventListener("click", function (){
-    fetch("https://api.themoviedb.org/3/movie/550")
-    .then(res => res.json())
-    .then(result => {
-        console.log(result)
-        image.src=result.message
-    })
-    .catch(err=>console.log(err))
-})
+// const API_URL=
+// "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=9f7a2b3abcaf511ee12205295aa3d257"
+
+
+
+
+// const IMAGE_PATH=
+
+// const SEARCH_URL=
+// "https://api.themoviedb.org/3/search/movie?api_key=9f7a2b3abcaf511ee12205295aa3d257=";
+
+let hoverA=document.getElementById("hoverA");
+hoverA.addEventListener("mouseover",showOverView);
+function showOverView(){
+return hoverA.innerHTML=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quod explicabo dicta autem atque ea nam reiciendis quidem facere sequi!"
+}
+
+
+
 
 

@@ -1,6 +1,6 @@
 :root {
     --primary-color: #026A90;
-    --secondary-color: #a52a2a;
+    --secondary-color: white;
 }
 * {
     box-sizing: border-box;
@@ -43,10 +43,28 @@ main{
 .movie img{
     width: 100%;
 }
-.movie inf0{
+.movie-inf0{
     color: #eee;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem 1rem;
+    letter-spacing: 1px;
+}
+.movie-info span{
+   background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.overview{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    
 }
