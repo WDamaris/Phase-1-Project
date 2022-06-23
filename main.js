@@ -15,12 +15,12 @@ const res=await fetch(url)
 const data=await res.json()
 console.log(data.results);
 }
-// function displayMovies(movies){
-//     main.innerHTML=""
-//     movies.forEach((movie)=> {
-//     const {title, poster_path, vote_average, overview}=movie
-//     });
-// }
+function displayMovies(movies){
+    main.innerHTML=""
+    movies.forEach((movie)=> {
+    const {title, poster_path, vote_average, overview}=movie
+    });
+}
 // form.addEventListener("submit",(e)=>{
 //     e.preventDefault()
 //     const searchValue=search.value
