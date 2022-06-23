@@ -14,7 +14,10 @@ hoverA.addEventListener("mouseover",showOverView);
 function showOverView(){
 return hoverA.innerHTML=" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit quod explicabo dicta autem atque ea nam reiciendis quidem facere sequi!"
 }
-
+hoverA.addEventListener("mouseout",removeOverView);
+function removeOverView(){
+return hoverA.innerHTML="OverView"
+};
 
 
 
