@@ -2,7 +2,7 @@
 ## By Damaris Wanjiku
 ### Description
 This project is a web application that gives you an overview of movies with their ratings.
-### Live link
+### Live link 
  https://wdamaris.github.io/Phase-1-Project/
 ### Built with
 #### HTML- To develop the structure and content of the webpage.

@@ -35,7 +35,7 @@ function  showMovies(data){
            <div class="overview">
             <h3>Overview</h3>
             ${overview}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quas numquam, reprehenderit perferendis enim optio earum quia mollitia? Illo accusantium dolor maxime fugit velit nemo esse eligendi earum, corporis perferendis.
+            
 
         </div>
         
