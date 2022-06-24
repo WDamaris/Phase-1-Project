@@ -97,7 +97,7 @@ function getMovies(url){
     })
 
 }
-
+function  showMovies(data)
 
 
 
