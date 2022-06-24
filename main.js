@@ -70,12 +70,12 @@ if(searchTerm){
 let newEvent=document.getElementById("newEvent")
 newEvent.addEventListener("mouseover", catchy)
 function catchy(){
-    return newEvent.innerHTML="Get down to it!"
+    return newEvent.innerHTML="Get an overview of your favorite movie and it's rating!"
 }
-// newEvent.addEventListener("mouseout",removeCatchy)
-// function removeCatchy(){
-//     return newEvent.innerHTML="Xplore Master"
-// }
+newEvent.addEventListener("mouseout",removeCatchy)
+function removeCatchy(){
+    return newEvent.innerHTML="Xplore Master"
+}
 
 
 
