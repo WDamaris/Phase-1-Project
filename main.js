@@ -101,16 +101,18 @@ function getMovies(url){
 }
 function  showMovies(data){
     data.forEach(movie => {
+        const {title, poster_path, vote_average, overview}=movie;
         const movieEl =document.createElement("div");
         movieEl.classList.add("movie"); 
         movieEl.innerHTML=  `
-        <img src="img1.jpg" alt="" >
+        <img src="${IMG_URL+poster_path}" alt="${title}" >
         <div class="movie-info">
-           <h3>Movie Title</h3>
-           <span class="orange">3.5</span> 
+           <h3>${title}</h3>
+           <span class="${getColor(vote_average)}">${vote_average}</span> 
         </div>
            <div class="overview">
             <h3>Overview</h3>
+            ${overview}
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quas numquam, reprehenderit perferendis enim optio earum quia mollitia? Illo accusantium dolor maxime fugit velit nemo esse eligendi earum, corporis perferendis.
 
         </div>
@@ -122,7 +124,16 @@ function  showMovies(data){
     })
 }
 
+function getColor(vote){
+    if(vote>= 8){
+        return "orange"
+    }else if(vote>= 5)
+        return "red"
+    else{
+        return "green"
+    } 
 
+}
 
 
 
