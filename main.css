@@ -1,6 +1,6 @@
 :root {
     --primary-color:  blue;
-    --secondary-color: white;
+    --secondary-color: brown;
 }
 * {
     box-sizing: border-box;
@@ -16,6 +16,10 @@ header {
     display: flex;
     justify-content: center;
     background-color: var(--primary-color);
+}
+newEvent{
+    
+position: relative;
 }
 .search{
     background-color: white;
@@ -70,7 +74,7 @@ main{
      
 }
 .overview{
-    background-color: var(--secondary-color);
+    background-color: black;
     color: var(--primary-color);
     padding: 2rem;
     position: absolute;
