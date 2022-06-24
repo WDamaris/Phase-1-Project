@@ -97,7 +97,30 @@ function getMovies(url){
     })
 
 }
-function  showMovies(data)
+function  showMovies(data){
+    data.forEach(movie => {
+        const movieEl =document.createElement("div");
+        movieEl.classList.add("movie"); 
+        movieEl.innerHTML=  `
+        <img src="img1.jpg" alt="" >
+        <div class="movie-info">
+           <h3>Movie Title</h3>
+           <span class="orange">3.5</span> 
+        </div>
+           <div class="overview">
+            <h3>Overview</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quas numquam, reprehenderit perferendis enim optio earum quia mollitia? Illo accusantium dolor maxime fugit velit nemo esse eligendi earum, corporis perferendis.
+
+        </div>
+        
+        
+        
+        
+        `
+    }
+}
+
+
 
 
 
