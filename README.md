@@ -1,4 +1,4 @@
-# Xplore 
+# Xplore Master
 ## By Damaris Wanjiku
 ### Description
 This project is a web application that gives you an overview of movies with their ratings.
