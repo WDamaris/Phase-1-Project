@@ -7,8 +7,7 @@ This project is a web application that gives you an overview of movies with thei
 ### Built with
 #### HTML- To develop the structure and content of the webpage.
 #### CSS-To add a styling to the page.
-#### Javascript-To enable dynamic interactivity on the webpage.
-MIT License
+#### Javascript-To give interactive elements that engage a user and display timely content updates.
 
 Copyright (c) [2022] [Damaris]
 
